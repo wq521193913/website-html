@@ -1,0 +1,28 @@
+.shop-nav{
+    margin: 0;
+    padding: 0;
+    top:45%;
+    position:fixed;
+}
+
+.left-nav{
+
+}
+.left-nav ul li:hover{
+    background-color:#333333;
+}
+.left-nav ul li:hover i:before{
+    content: "\f107";
+    speak: none;
+}
+.left-nav ul li{
+    list-style-type:none;
+    background: #000000;
+    width: 150px;
+    line-height: 2;
+    text-align:center;
+    font-size: 16px;
+    font-weight: 200;
+    cursor:pointer;
+}
+

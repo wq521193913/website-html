@@ -1,0 +1,18 @@
+{{#each productList}}
+<div class="product">
+    <div class="product-info">
+            <div class='product-img'>
+                <img src='{{url}}'>
+            </div>
+            <div class='product-summary'>
+                <div class='product-name'>
+                    <a href='javascript:void(0)'>{{name}}</a>
+                </div>
+                <div class='product-intro'>
+                    <a href='javascript:void(0)'>描述描述描述描述描述描述描述描述描述描述.....</a>
+                </div>
+                <input type='button' class='input-btn' value='加入购物车' ng-click=''>
+            </div>
+    </div>
+</div>
+{{/each }}
